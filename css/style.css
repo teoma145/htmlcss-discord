@@ -13,6 +13,12 @@
 .debug{
     border: 2px solid black;
 }
+h1{
+    font-size: 50px;
+    padding: 55px;
+    color: white;
+}
+
 .flex-d{
     display: flex;
     flex-flow: row wrap;
@@ -30,8 +36,10 @@ header{
 ul{
     list-style: none;
 }
-li{
+a{
     color: white;
+    padding: 12px 25px;
+    text-decoration: none;
 }
 
     
@@ -52,3 +60,27 @@ footer{
 .padding-header{
     padding-top: 15px;
 }
+.Hero{
+    background-image:url(../img/jumbo.png);
+    min-height:600px;
+    background-size: cover;
+}
+.hero-char{
+    max-width:55%;
+    
+}
+.justifycenter{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+}
+.paddinghero{
+    padding-top: 120px;
+}
+.white-text{
+    color: white;
+    font-size: 24px;
+}
+    
