@@ -165,7 +165,9 @@ h2{
 }
 h3{
     font-size: 1.8em;
-    padding: 30px;
+    padding: 25px;
+    background-size: contain;
+    background-position: top center;
 }
 
 li{
@@ -194,4 +196,23 @@ li:first-child{
     background-color: var(--color-accessory);
     color: white;
     
+}
+.wave{
+    display:flex;
+    opacity: 0.03;
+    margin: 0;
+}
+.trasform{
+    transform: scaleY(-1);
+}
+.stars{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position:top center;
+    padding: 10px;
+    
+}
+.botpadding{
+    padding-bottom: 80px;
 }
