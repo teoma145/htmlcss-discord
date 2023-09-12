@@ -13,10 +13,14 @@
 .debug{
     border: 2px solid black;
 }
+body{
+    font-family: 'Noto Sans Symbols', sans-serif;
+}
 h1{
-    font-size: 50px;
-    padding: 50px;
+    font-size: 45px;
+    padding: 40px;
     color: white;
+    text-align: center;
 }
 
 .flex-d{
@@ -45,9 +49,13 @@ a{
     border-radius: 5px;
     display: block;
   }
+a:hover{
+    text-decoration: underline;
+}
+a.access-button:hover{
+    text-decoration: none;
+}
 
-
-    
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -67,11 +75,11 @@ footer{
 }
 .Hero{
     background-image:url(../img/jumbo.png);
-    min-height:600px;
+    min-height:630px;
     background-size: cover;
 }
 .hero-char{
-    max-width:50%;
+    max-width:65%;
     
 }
 .justifycenter{
@@ -82,12 +90,12 @@ footer{
     align-items: center;
 }
 .paddinghero{
-    padding-top: 120px;
+    padding-top: 140px;
 }
 .white-text{
     color: white;
-    font-size: 22px;
     text-align: center;
+    
 }
 .button-hero{
     padding: 15px;
@@ -108,10 +116,14 @@ footer{
 }
 .access-button{
     border: 1px solid black;
-    padding: 12px;
+    padding: 5px 17px;
     border-radius: 30px;
     background-color: white;
     color: black;
     font-size: 15px;
-    
 }
+p{
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
