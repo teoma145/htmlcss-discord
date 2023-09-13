@@ -232,3 +232,7 @@ i {
 .paddingfin{
     padding: 50px;
 }
+button:hover{
+    color: var(--colore-header);
+    cursor: pointer;
+}
